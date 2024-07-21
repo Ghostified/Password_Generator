@@ -26,3 +26,9 @@ function createPassword(){
     //Display the randomly generated password
     passWordBox.value = password;
 }
+
+//Function to activate the copy button to select the generated password on the clip board
+function copyPassword () {
+    passWordBox.select();
+    document.execCommand("copy");
+}
