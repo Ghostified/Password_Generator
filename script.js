@@ -1,6 +1,6 @@
 const passWordBox = document.getElementById("password");
 //password length
-const length = 12;
+const length = 20;
 
 //define characters that are allowed in the password
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
